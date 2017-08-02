@@ -1,0 +1,69 @@
+(ns hello-world)
+(defn hello [name] 
+  "Hello, World!"
+)
+(hello "test")
+)
+(ns hello-world)
+(defn hello [name] 
+  "Hello, name!"
+)
+(ns hello-world)
+(hello "test")
+(ns hello-world)
+(defn hello [name] 
+  "Hello, " name
+)
+(hello "test")
+(ns hello-world)
+(defn hello [name] 
+  "Hello, " name "!"
+)
+(hello "test")
+(ns hello-world)
+(defn hello [name] 
+  "Hello, " (name) "!"
+)
+(hello "test")
+(ns hello-world)
+(defn hello [name] 
+  (prn "Hello," name)
+)
+(hello "test")
+(ns hello-world)
+(defn hello [name] 
+  (println (str "Hello," name))
+)
+(hello "test")
+(hello test)
+(ns hello-world)
+(defn hello [name] 
+  (println (str "Hello, " name"!"))
+)
+(hello test)
+(hello "test")
+(hello-world/hello "Bob")
+(= "Hello, Bob!" (hello-world/hello "Bob"))
+(ns hello-world)
+(defn hello [name] 
+  (print (str "Hello, " name"!"))
+)
+(hello-world/hello "Bob")
+(ns hello-world)
+(defn hello [name] 
+  (prn (str "Hello, " name"!"))
+)
+(hello-world/hello "Bob")
+(ns hello-world)
+(defn hello [name] 
+ ([] (str "Hello, World!"))
+ ([name] (str "Hello, " name "!"))
+)
+(hello-world/hello "Bob")
+(ns hello-world)
+(defn hello
+  ([] (str "Hello, World!"))
+  ([name] (str "Hello, " name "!"))
+)
+(hello-world/hello "Bob")
+quit
